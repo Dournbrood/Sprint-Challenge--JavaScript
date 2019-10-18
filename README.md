@@ -42,10 +42,10 @@ Edit this document to include your answers after each question. Make sure to lea
 
 4. Describe the four rules of the 'this' keyword.
 
-* 1. Window Binding is the default if none of the other rules are being applied if it is NOT in strict mode.
-* 2. Implicit Binding is simply referencing whatever object the 'this' belongs to when the method is invoked.
-* 3. New Binding uses the 'new' keyword to construct a new object and point 'this' to the new object.
-* 4. Explicit Binding appends 'this' to an explicitly-stated value. 'this' is told EXACTLY what it is, DIRECTLY by the program.
+    * 1. Window Binding is the default if none of the other rules are being applied if it is NOT in strict mode.
+    * 2. Implicit Binding is simply referencing whatever object the 'this' belongs to when the method is invoked.
+    * 3. New Binding uses the 'new' keyword to construct a new object and point 'this' to the new object.
+    * 4. Explicit Binding appends 'this' to an explicitly-stated value. 'this' is told EXACTLY what it is, DIRECTLY by the program.
 
 5. Why do we need super() in an extended class?
 

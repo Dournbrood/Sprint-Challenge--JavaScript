@@ -30,13 +30,26 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
+    `.forEach` is an iterator method that effectively emulates a complex `for` loop. It operates in reference to whatever data it is being ran on and can modify said data. `.map` is similar in that it can loop over data, but it does not modify the original and can extract individual key-value pairs.
+
 2. What is the difference between a function and a method?
+
+    Very little. A method is a function nested inside of an object. Both can be used to the same ends.
 
 3. What is closure?
 
+    Closure is code that was defined in another part of the program that can be used later on. Closure also shares some similarities with the general idea of scope. Variables can be inherited downwards (by children) but never upwards.
+
 4. Describe the four rules of the 'this' keyword.
 
+    * 1. Window Binding is the default if none of the other rules are being applied if it is NOT in strict mode.
+    * 2. Implicit Binding is simply referencing whatever object the 'this' belongs to when the method is invoked.
+    * 3. New Binding uses the 'new' keyword to construct a new object and point 'this' to the new object.
+    * 4. Explicit Binding appends 'this' to an explicitly-stated value. 'this' is told EXACTLY what it is, DIRECTLY by the program.
+
 5. Why do we need super() in an extended class?
+
+    `super()` tells the extended class to inherit the keys (or attributes) and methods of the parent.
 
 ## Project Set up
 
